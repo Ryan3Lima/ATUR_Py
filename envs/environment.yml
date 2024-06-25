@@ -1,0 +1,28 @@
+name: hyriver
+channels:
+- conda-forge
+- nodefaults
+dependencies:
+- python >=3.11
+
+# HyRiver packages
+- async-retriever >=0.16
+- pygeoogc >=0.16
+- pygeoutils >=0.16
+- py3dep >=0.16
+- pynhd >=0.16.1
+- hydrosignatures >=0.16
+- pygeohydro >=0.16
+- pydaymet >=0.16
+- pygridmet >=0.16
+- pynldas2 >=0.16
+
+# optional deps
+- numba
+- numbagg
+- flox
+- planetary-computer
+- pystac-client
+- pyogrio
+- py7zr
+- pyflwdir
